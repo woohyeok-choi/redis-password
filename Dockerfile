@@ -14,7 +14,7 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 
 EXPOSE 6379
 
-COPY ./scripts/docker-entrypoint.sh /scripts
+COPY ./docker-entrypoint.sh /scripts
 
 VOLUME [ "/var/log/redis" ]
 
